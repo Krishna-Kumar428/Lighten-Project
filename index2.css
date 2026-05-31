@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+/* ----------------------------------header section */
+.header{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
+.headerup{
+    background-color: gold;
+    width: 100%;
+    height: 50px;
+}
+.headerupleft{
+    background-color: gold;
+    width: 180px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 220px;
+}
+.img{
+    width: 22px;
+    height: 22px;
+    padding-top: 12px;
+}
+.headerupright{
+    background-color: gold;
+    width: 520px;
+    height: 100%;
+    float: right;  
+}
+.p{
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+
+
+.headerdown{
+    background-color: green;
+    width: 100%;
+    height: 150px;
+    
+}
+.headerdownleft{
+    background-color:white;
+    width: 34%;
+    height: 100%;
+    float: left;
+}
+.img2{
+    width: 250px;
+    height: 70px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.headerdownmiddle{
+    background-color: white;
+    width: 41%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+.home{
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 70px;
+    cursor: pointer;
+    transition: 0.1s;
+    font-family: 'montserrat',sans-serif;
+}
+.home2{
+    color: gold;
+}
+.home:hover{
+    color: gold;
+}
+.headerdownright{
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+.button{ 
+    border: none; 
+    background-color:gold;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/* ------------------- -----------------------header end*/
+.content{
+
+}
+
+.bannar2{
+    
+    background-coor: gold;
+    width: 500px;
+    height: 380px;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 80px;
+}
+.our{
+    font-size: 80px;
+    font-family: 'montserrat',sans-serif;
+}
+.latest{
+    font-size: 80px;
+    font-family: 'montserrat',sans-serif ;
+    font-weight: 800;
+    line-height: .8;
+}
+.product{
+    font-size: 80px;
+    color: gold;
+    font-family: 'montserrat',sans-serif ;
+    font-weight: 800;
+}
+
+.seemore{
+    width: 250px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    background-color: gold;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transition: 0.5s;
+}
+.seemore:hover{
+    background-color: black;
+}
+.seemore p{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:'montserrat',sans-serif ;
+
+    position: absolute;
+}
+.whychooseup{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 70px;
+}
+.why{
+    color: gold ;
+    font-size: 50px;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+}
+.chooseus{
+    color: black;
+    font-size: 50px;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.faster{
+    color: black;
+    font-size: 28px;
+    font-family: 'montserrat',sans-serif;
+    margin-top: 40px;
+}
+/* ------------------------------------------------------- */
+.readmore1{
+    border: 2px solid ;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 400px;
+}
+.readmore1:hover{
+    background-color: gold;
+    border: gold;
+    transition: 0.5s;
+}
+.readmore2{
+    text-decoration: none;
+    color: black;
+    font-size: 20;
+    font-family: 'montserrat',sans-serif;
+    padding-top: 20px;
+    
+}
+.whychoosedown{
+    background: yellow;
+    width: 99.9%;
+    height: 500px;
+    display: flex;
+    box-shadow: 20px 20px 20px;
+}
+.container1{
+    background-color: gold;
+    width: 13%;
+    height: 100%;
+}
+.container2{
+    background-color: white;
+    width: 74%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 1px 15px rgba(7, 7, 7, 0.25),  -1px -1px 15px rgba(7, 7, 7, 0.25) ;
+    
+}
+.img3{
+    padding-top: 50px;
+    padding-left: 45px;
+}
+h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+    font-family: 'montserrat',sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.p{
+    font-size: 20;
+    color: rgb(79, 75, 75);
+    font-weight: 100;
+    font-family: 'montserrat',sans-serif;
+    text-align: center;
+}
+.datarecovery{
+    text-align: center;
+
+}
+.container3{
+    background-color: gold;
+    width: 13%;
+    height: 100%;
+}
+/* -------------------------------------- */
+.serviceprocess{
+    background-color: white;
+    width: 73%;
+    height: 570px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+
+}
+.a{
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(7, 7, 7, 0.25),  -1px -1px 15px rgba(7, 7, 7, 0.25) ;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.ourproduct{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    padding-top: 70px;
+}
+.our{
+    color: black;
+    font-size: 50px;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.why2{
+    color: gold ;
+    font-size: 50px;
+    font-family: 'montserrat',sans-serif;
+    text-transform: uppercase;
+    padding-left: 200px;
+}
+.wepackage{
+    color: black;
+    font-size: 25;
+    font-family:'montserrat',sans-serif ;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+/* -------------------------------------- */
+
+.NortonInternetSecurity{
+    background-color: white;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -5px 10px rgb(124, 121, 121);
+}
+.NortonInternet{
+    background-color: white;
+    width: 73%;
+    height: 670px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    margin-top: 90px;
+}
+.norton{
+    background-color: rgb(207, 210, 209);
+}
+.norton:hover{
+    background-color: gold;
+}
+.nortonimg{
+    padding-top: 24px;
+    padding-left: 24px;
+}
+.norton1{
+    font-size: 20px;
+    font-family:'montserrat',sans-serif ;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.norton2{
+    font-size: 25px;
+    font-family:'montserrat',sans-serif ;
+    padding-left: 90px;
+    padding-top: 10px;
+
+}
+
+/* ---------------------------------- */
+.clientssay{
+    background-color: white;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.clients{
+    background-color: white;
+    width: 74%;
+    height: 100%;
+}
+.WhatClientsSay{
+    font-size: 50px;
+    font-weight: 40;
+    font-family: 'montserrat',sans-serif ;
+    padding-top: 40px;
+
+}
+.jonedue{
+    background-color: white;
+    width: 100%;
+    height: 55%;
+    margin-top: 50;
+    
+}
+.joneimg{
+    padding-left: 20px;
+    padding-top:10px ;
+}
+.jonepara{
+    padding-left: 20px;
+    padding-top:40px ;
+    font-size: 18px;
+    font-family:'montserrat',sans-serif ;
+    line-height: 1.5;
+}
+
+
+.REQUESTAFREEQUOTE{
+    background-color: rgb(206, 207, 207);
+    width: 100%;
+    height: 260px;
+    
+}
+.REQUEST{
+    background-color: gold;
+    width: 700px;
+    height: 160px;
+    float: left;
+    margin-left: 200;
+    margin-top: 100;
+}
+.call{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    font-family:'montserrat',sans-serif ;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.get{
+    font-size: 25px;
+    font-family:'montserrat',sans-serif ;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.getquote{
+    background-color: gold;
+    width: 410px;
+    height: 160px;
+    margin-top: 100;
+    float: left;
+}
+.quotebutton{
+    border: none;
+    width: 350px;
+    height: 65px;
+    font-size: 30px;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------footer */
+
+.footer{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 480px;
+}
+.footerup{
+    /* background-color: black; */
+    width: 100%;
+    height: 420px;
+}
+.footerup_up{
+    width: 100%;
+    height: 25%;
+}
+
+.footerfacebook{
+    text-align: right;
+    filter: invert(1);
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.footertwitter{
+    text-align: right;
+    filter: invert(1);
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.footerlinkedin{
+    text-align: right;
+    filter: invert(1);
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.footerinsta{
+    text-align: right;
+    filter: invert(1);
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.footerempty{
+    width: 40%;
+    height: 100%;
+    float: right;
+
+}
+
+
+
+
+.footerup_down{
+    width: 100%;
+    height: 75%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.inner-div{
+    width: 280px;
+    height: 100%;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+.inner-div h3{
+    font-size: 28px;
+    margin-top: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner-div p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner-div a{
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 20px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.inner-div a:hover{
+    color: gold;
+}
+
+
+
+
+.emptyblack{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+}
+.contactus{
+    color: white;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: blueviolet;
+}
+.additionallink{
+    color: white;
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgb(177, 199, 100);
+}
+.service{
+    color: white;
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: rgb(166, 57, 159);
+}
+.aboutlighten{
+    color: white;
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: rgb(94, 85, 44);
+}
+
+
+.footerdown{
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    color: rgb(109, 108, 108);
+    font-weight: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
